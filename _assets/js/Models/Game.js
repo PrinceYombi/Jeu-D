@@ -28,7 +28,7 @@ export class Game {
             document.querySelector(playerClassName+" .score_global").innerText = player.scoreGlobal
             document.querySelector(playerClassName+" .score").innerText = player.scoreRound
         })
-        const fileUrl = "/_assets/images/face"+Player.rollValue+".png"
+        const fileUrl = "_assets/images/face"+Player.rollValue+".png"
         document.querySelector(".game_option_item img").src = fileUrl
     }
 
